@@ -6,7 +6,6 @@
 int countMove = 0;
 char board[size][size];
 
-// void init();
 void playX();
 void playO();
 void moveO();
@@ -19,7 +18,6 @@ void winner(char);
 int main(){
 
     int input;
-    // init();
     while(1){
         printf("1 : Play with X\n");
         printf("2 : Play with O\n");
@@ -45,17 +43,6 @@ int main(){
         }
         draw();
 }
-
-
-
-
-// void init(){
-//     for(int i =0;i<size;i++){
-//         for(int j=0;j<size;j++){
-//             board[i][j]='\0';
-//         }
-//     }
-// }
 
 void playX(){
 
